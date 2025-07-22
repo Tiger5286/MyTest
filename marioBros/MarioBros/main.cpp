@@ -1,5 +1,6 @@
 #include "DxLib.h"
 #include "Game.h"
+#include "SceneMain.h"
 
 // プログラムは WinMain から始まる
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
@@ -21,7 +22,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	// ここに実行時のみの処理を書く
 
-
+	SceneMain scene;
+	scene.Init();
 
 	while (ProcessMessage() != -1)
 	{
@@ -33,7 +35,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 		// ここにゲームの処理を書く
 
-		
+		scene.Update();
+
+		scene.Draw();
 
 		// escキーで終了
 		if (CheckHitKey(KEY_INPUT_ESCAPE))
@@ -50,6 +54,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 		}
 	}
+
+	scene.End();
 
 	DxLib_End();				// ＤＸライブラリ使用の終了処理
 

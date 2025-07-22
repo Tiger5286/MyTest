@@ -1,0 +1,6 @@
+﻿  Player.cpp
+C:\Users\SasakiTaiga\Documents\GitHub\MyTest\marioBros\MarioBros\Player.cpp(72,41): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\SasakiTaiga\Documents\GitHub\MyTest\marioBros\MarioBros\Player.cpp(72,11): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\SasakiTaiga\Documents\GitHub\MyTest\marioBros\MarioBros\Player.cpp(71,48): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\SasakiTaiga\Documents\GitHub\MyTest\marioBros\MarioBros\Player.cpp(71,18): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  MarioBros.vcxproj -> C:\Users\SasakiTaiga\Documents\GitHub\MyTest\marioBros\MarioBros\x64\Debug\MarioBros.exe
