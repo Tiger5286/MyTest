@@ -8,6 +8,7 @@ namespace
 class Player;
 class Enemy;
 class Shot;
+class Bg;
 
 /// <summary>
 /// ƒV[ƒ“ƒƒCƒ“
@@ -60,5 +61,6 @@ private:
 	Player* m_pPlayer;
 	Enemy* m_pEnemy;
 	Shot* m_pShot[kShotMax];
+	Bg* m_pBg;
 };
 

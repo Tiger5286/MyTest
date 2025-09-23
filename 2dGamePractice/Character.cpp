@@ -3,7 +3,7 @@
 namespace
 {
 	constexpr float kGravity       = 1.0f;   // 重力
-	constexpr float kGround        = 600.0f; // 地面の高さ
+	constexpr float kGround        = 900.0f; // 地面の高さ
 
 	constexpr float kCharaSize     = 64.0f;  // キャラのサイズ
 

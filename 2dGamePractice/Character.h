@@ -39,6 +39,12 @@ public:
 	void OnDamage();
 
 	/// <summary>
+	/// ˆÊ’u‚ðŽæ“¾
+	/// </summary>
+	/// <returns>ˆÊ’u</returns>
+	Vec2 GetPos() const { return m_pos; }
+
+	/// <summary>
 	/// HPŽæ“¾
 	/// </summary>
 	/// <returns>HP</returns>

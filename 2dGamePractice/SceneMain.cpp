@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "Enemy.h"
 #include "Shot.h"
+#include "Bg.h"
 #include "Dxlib.h"
 
 SceneMain::SceneMain()
@@ -13,6 +14,7 @@ SceneMain::SceneMain()
 	{
 		m_pShot[i] = nullptr;
 	}
+	m_pBg = new Bg(m_pPlayer);
 }
 
 SceneMain::~SceneMain()
@@ -31,6 +33,7 @@ void SceneMain::Init()
 
 void SceneMain::Update()
 {
+	m_pBg->Update();
 	if (m_pPlayer) m_pPlayer->Update();
 	if (m_pEnemy) m_pEnemy->Update();
 	UpdateShot();
@@ -45,6 +48,7 @@ void SceneMain::Update()
 
 void SceneMain::Draw()
 {
+	m_pBg->Draw();
 	if (m_pPlayer) m_pPlayer->Draw();
 	if (m_pEnemy) m_pEnemy->Draw();
 
@@ -54,7 +58,9 @@ void SceneMain::Draw()
 		m_pShot[i]->Draw();
 	}
 
-	DrawLine(0, 600, Game::kScreenW, 600, 0xffffff); // ’n–Ê‚Ì•`‰æ
+#ifdef _DEBUG
+	DrawLine(0, 900, Game::kScreenW, 900, 0xffffff); // ’n–Ê‚Ì•`‰æ
+#endif // _DEBUG
 }
 
 void SceneMain::CheckCharacterDeath()

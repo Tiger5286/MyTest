@@ -32,7 +32,7 @@ void Enemy::Update()
 
 void Enemy::Draw()
 {
-	DrawRotaGraph(m_pos.x, m_pos.y, kDrawScale, 0, m_handle, true, m_isLeft);
+	DrawRotaGraph(m_pos.x, m_pos.y, kDrawScale, 0, m_handle, false, m_isLeft);
 #ifdef _DEBUG
 	// “–‚½‚è”»’è‚Ì•`‰æ
 	m_colRect.Draw(0xff0000, false);
