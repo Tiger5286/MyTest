@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Programing\\2dGamePractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\SceneMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:SceneMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Rect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Rect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\SceneMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:SceneMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Shot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Shot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Rect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Rect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|E:\\Programing\\2dGamePractice\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57A86555-D1F5-4F9D-8A62-13746E3FB1F2}|2dGamePractice.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rect.cpp",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Rect.cpp",
+              "RelativeDocumentMoniker": "Rect.cpp",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Rect.cpp",
+              "RelativeToolTip": "Rect.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-23T02:16:06.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Rect.h",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Rect.h",
+              "RelativeDocumentMoniker": "Rect.h",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Rect.h",
+              "RelativeToolTip": "Rect.h",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-23T02:15:24.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Shot.cpp",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Shot.cpp",
+              "RelativeDocumentMoniker": "Shot.cpp",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Shot.cpp",
+              "RelativeToolTip": "Shot.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-23T00:36:13.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Shot.h",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Shot.h",
+              "RelativeDocumentMoniker": "Shot.h",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Shot.h",
+              "RelativeToolTip": "Shot.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-23T00:34:51.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Enemy.cpp",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Enemy.cpp",
+              "RelativeToolTip": "Enemy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-22T06:50:42.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Enemy.h",
+              "RelativeDocumentMoniker": "Enemy.h",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Enemy.h",
+              "RelativeToolTip": "Enemy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-23T00:23:36.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Player.cpp",
+              "RelativeDocumentMoniker": "Player.cpp",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Player.cpp",
+              "RelativeToolTip": "Player.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-22T06:49:27.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.h",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-23T00:23:40.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Character.cpp",
+              "RelativeDocumentMoniker": "Character.cpp",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Character.cpp",
+              "RelativeToolTip": "Character.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-22T06:41:33.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Character.h",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\Character.h",
+              "RelativeDocumentMoniker": "Character.h",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\Character.h",
+              "RelativeToolTip": "Character.h",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-23T00:23:46.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SceneMain.cpp",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\SceneMain.cpp",
+              "RelativeDocumentMoniker": "SceneMain.cpp",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\SceneMain.cpp",
+              "RelativeToolTip": "SceneMain.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-22T06:57:22.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SceneMain.h",
+              "DocumentMoniker": "E:\\Programing\\2dGamePractice\\SceneMain.h",
+              "RelativeDocumentMoniker": "SceneMain.h",
+              "ToolTip": "E:\\Programing\\2dGamePractice\\SceneMain.h",
+              "RelativeToolTip": "SceneMain.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-23T00:23:33.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
