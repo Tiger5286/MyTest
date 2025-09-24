@@ -37,11 +37,12 @@ void Player::Update()
 
 void Player::Draw()
 {
-	// ダメージを受けている間は点滅させる
-	if (!(m_damageFrame > 0 && (m_damageFrame / 5) % 2 == 0))
-	{
-		DrawRotaGraph(m_pos.x, m_pos.y, kDrawScale, 0, m_handle, false, m_isLeft);
-	}
+	Character::Draw();
+	//// ダメージを受けている間は点滅させる
+	//if (!(m_damageFrame > 0 && (m_damageFrame / 5) % 2 == 0))
+	//{
+	//	DrawRotaGraph(m_pos.x, m_pos.y, kDrawScale, 0, m_handle, false, m_isLeft);
+	//}
 
 #ifdef _DEBUG
 	// 当たり判定の描画

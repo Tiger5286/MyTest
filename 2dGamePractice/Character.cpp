@@ -1,4 +1,6 @@
 #include "Character.h"
+#include "Bg.h"
+#include "Dxlib.h"
 
 namespace
 {
@@ -6,6 +8,7 @@ namespace
 	constexpr float kGround        = 900.0f; // 地面の高さ
 
 	constexpr float kCharaSize     = 64.0f;  // キャラのサイズ
+	constexpr float kDrawScale = 4.0f;  // 描画倍率
 
 	constexpr int kMaxHp           = 10;     // 最大HP
 	constexpr int kInvincibleFrame = 60;     // 無敵時間(フレーム)
@@ -18,7 +21,8 @@ Character::Character():
 	m_isLeft(false),
 	m_isGround(false),
 	m_hp(kMaxHp),
-	m_damageFrame(0)
+	m_damageFrame(0),
+	m_pBg(nullptr)
 {
 }
 
@@ -50,6 +54,14 @@ void Character::Update()
 
 void Character::Draw()
 {
+	float drawX = m_pos.x - m_pBg->GetScrollX() - kCharaSize / 2;
+	float drawY = m_pos.y - m_pBg->GetScrollY() - kCharaSize / 2;
+
+	// ダメージを受けている間は点滅させる
+	if (!(m_damageFrame > 0 && (m_damageFrame / 5) % 2 == 0))
+	{
+		DrawRotaGraph(drawX, drawY, kDrawScale, 0, m_handle, false, m_isLeft);
+	}
 }
 
 void Character::OnDamage()

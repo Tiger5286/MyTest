@@ -15,6 +15,8 @@ SceneMain::SceneMain()
 		m_pShot[i] = nullptr;
 	}
 	m_pBg = new Bg(m_pPlayer);
+	m_pPlayer->SetBgPointer(m_pBg);
+	m_pEnemy->SetBgPointer(m_pBg);
 }
 
 SceneMain::~SceneMain()

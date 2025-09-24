@@ -2,6 +2,8 @@
 #include "Vec2.h"
 #include "Rect.h"
 
+class Bg;
+
 /// <summary>
 /// キャラクターの基底クラス
 /// </summary>
@@ -56,6 +58,12 @@ public:
 	/// <returns>当たり判定情報</returns>
 	Rect GetColRect() const { return m_colRect; } // 当たり判定取得
 
+	/// <summary>
+	/// Bgクラスのポインタをセットする
+	/// </summary>
+	/// <param name="pBg">Bgクラスポインタ</param>
+	void SetBgPointer(Bg* pBg) { m_pBg = pBg; }
+
 protected:
 	/// <summary>
 	/// 重力処理
@@ -73,6 +81,8 @@ protected:
 
 	int m_hp;		   // HP
 	int m_damageFrame; // ダメージを受けてからの経過フレーム数
+
+	Bg* m_pBg;
 
 	// 当たり判定用の矩形
 	Rect m_colRect;
