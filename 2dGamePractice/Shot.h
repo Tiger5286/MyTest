@@ -2,6 +2,8 @@
 #include "Vec2.h"
 #include "Rect.h"
 
+class Bg;
+
 /// <summary>
 /// 弾管理クラス
 /// </summary>
@@ -44,7 +46,7 @@ public:
 	/// </summary>
 	/// <param name="pos">座標</param>
 	/// <param name="isLeft">左方向に移動するか</param>
-	void SetInfo(const Vec2& pos, bool isLeft);
+	void SetInfo(const Vec2& pos, bool isLeft, Bg* pBg);
 
 	Vec2 GetPos() const { return m_pos; } // 位置取得
 private:
@@ -56,5 +58,7 @@ private:
 
 	// 当たり判定用の矩形
 	Rect m_colRect;
+
+	Bg* m_pBg;
 };
 

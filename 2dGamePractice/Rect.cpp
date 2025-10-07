@@ -21,6 +21,15 @@ void Rect::Draw(unsigned int color, bool isFill)
 		color, isFill);
 }
 
+void Rect::DrawScroll(int scrollX, int scrollY, unsigned int color, bool isFill)
+{
+	int drawL = static_cast<int>(m_left) - scrollX;
+	int drawT = static_cast<int>(m_top) - scrollY;
+	int drawR = static_cast<int>(m_right) - scrollX;
+	int drawB = static_cast<int>(m_bottom) - scrollY;
+	DrawBox(drawL, drawT, drawR, drawB, color, isFill);
+}
+
 void Rect::SetLT(float left, float top, float width, float height)
 {
 	m_left = left;

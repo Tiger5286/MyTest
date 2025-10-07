@@ -1,4 +1,5 @@
 #pragma once
+#include <vector>
 
 namespace
 {
@@ -61,6 +62,7 @@ private:
 	Player* m_pPlayer;
 	Enemy* m_pEnemy;
 	Shot* m_pShot[kShotMax];
+	//std::vector<Shot*> m_pShot;
 	Bg* m_pBg;
 };
 

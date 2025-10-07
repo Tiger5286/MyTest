@@ -2,6 +2,7 @@
 #include "Dxlib.h"
 #include "Pad.h"
 #include "Shot.h"
+#include "Bg.h"
 
 namespace // 定数定義
 {
@@ -46,7 +47,7 @@ void Player::Draw()
 
 #ifdef _DEBUG
 	// 当たり判定の描画
-	m_colRect.Draw(0x0000ff, false);
+	m_colRect.DrawScroll(m_pBg->GetScrollX(),m_pBg->GetScrollY(),0x0000ff, false);
 	// HP表示
 	DrawFormatString(0, 0, 0xffffff, "Player HP:%d", m_hp);
 #endif // _DEBUG
@@ -57,7 +58,7 @@ Shot* Player::CreateShot()
 	if (Pad::IsTrigger(PAD_INPUT_2))	// Bボタンが押されたとき
 	{
 		Shot* pShot = new Shot();		 // 弾を生成
-		pShot->SetInfo(m_pos, m_isLeft); // 弾の情報を設定
+		pShot->SetInfo(m_pos, m_isLeft, m_pBg); // 弾の情報を設定
 		return pShot;					 // 生成した弾のポインタを返す
 	}
 	return nullptr;

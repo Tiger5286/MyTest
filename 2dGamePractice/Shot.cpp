@@ -1,6 +1,8 @@
 #include "Shot.h"
 #include "Dxlib.h"
 
+#include "Bg.h"
+
 namespace
 {
 	constexpr float kDrawScale = 1.0f; // •`‰æ”{—¦
@@ -35,16 +37,20 @@ void Shot::Update()
 
 void Shot::Draw()
 {
-	DrawRotaGraph(m_pos.x, m_pos.y, kDrawScale, 0.0f, m_handle, true);
+	float DrawX = m_pos.x - m_pBg->GetScrollX();
+	float DrawY = m_pos.y - m_pBg->GetScrollY();
+
+	DrawRotaGraph(DrawX, DrawY, kDrawScale, 0.0f, m_handle, true);
 #ifdef _DEBUG
 	// “–‚½‚è”»’è‚Ì•`‰æ
-	m_colRect.Draw(0x00ff00, false);
+	m_colRect.DrawScroll(m_pBg->GetScrollX(),m_pBg->GetScrollY(),0x00ff00, false);
 #endif // _DEBUG
 }
 
-void Shot::SetInfo(const Vec2& pos, bool isLeft)
+void Shot::SetInfo(const Vec2& pos, bool isLeft, Bg* pBg)
 {
 	m_pos = pos;
+	m_pBg = pBg;
 
 	if (isLeft)
 	{

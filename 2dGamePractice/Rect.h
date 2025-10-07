@@ -25,6 +25,15 @@ public:
 	void Draw(unsigned int color, bool isFill);
 
 	/// <summary>
+	/// スクロール情報を適用した矩形の描画
+	/// </summary>
+	/// <param name="scrollX">横スクロール量</param>
+	/// <param name="scrollY">縦スクロール量</param>
+	/// <param name="color">矩形の色</param>
+	/// <param name="isFill">矩形の中を塗りつぶすかどうか</param>
+	void DrawScroll(int scrollX, int scrollY, unsigned int color, bool isFill);
+
+	/// <summary>
 	/// 左上座標と幅、高さを設定
 	/// </summary>
 	/// <param name="left">左x座標</param>

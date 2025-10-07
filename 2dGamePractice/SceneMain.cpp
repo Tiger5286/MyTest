@@ -6,6 +6,11 @@
 #include "Bg.h"
 #include "Dxlib.h"
 
+namespace
+{
+	constexpr float kMapWidth = 5000.0f;	// マップ幅
+}
+
 SceneMain::SceneMain()
 {
 	m_pPlayer = new Player();
@@ -105,8 +110,8 @@ void SceneMain::UpdateShot()
 		bool isColEnemy = m_pEnemy && m_pShot[i]->GetColRect().IsCollision(m_pEnemy->GetColRect());
 		if (isColEnemy) m_pEnemy->OnDamage();	// 敵にダメージを与える
 
-		// 画面外に出た場合
-		bool isOutScreen = m_pShot[i]->GetPos().x < 0 || m_pShot[i]->GetPos().x > Game::kScreenW;
+		// 画面外に出た場合(マップの範囲外に出た場合)
+		bool isOutScreen = m_pShot[i]->GetPos().x < 0 || m_pShot[i]->GetPos().x > kMapWidth;
 
 		// どちらかの条件を満たしたら弾を削除
 		if (isOutScreen || isColEnemy) DeleteShot(i);

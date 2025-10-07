@@ -54,8 +54,8 @@ void Character::Update()
 
 void Character::Draw()
 {
-	float drawX = m_pos.x - m_pBg->GetScrollX() - kCharaSize / 2;
-	float drawY = m_pos.y - m_pBg->GetScrollY() - kCharaSize / 2;
+	float drawX = m_pos.x - m_pBg->GetScrollX();
+	float drawY = m_pos.y - m_pBg->GetScrollY();
 
 	// ダメージを受けている間は点滅させる
 	if (!(m_damageFrame > 0 && (m_damageFrame / 5) % 2 == 0))

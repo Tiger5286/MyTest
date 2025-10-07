@@ -1,5 +1,6 @@
 #include "Enemy.h"
 #include "Dxlib.h"
+#include "Bg.h"
 
 namespace
 {
@@ -32,10 +33,10 @@ void Enemy::Update()
 
 void Enemy::Draw()
 {
-	//DrawRotaGraph(m_pos.x, m_pos.y, kDrawScale, 0, m_handle, false, m_isLeft);
+	Character::Draw();
 #ifdef _DEBUG
 	// “–‚½‚è”»’è‚Ì•`‰æ
-	m_colRect.Draw(0xff0000, false);
+	m_colRect.DrawScroll(m_pBg->GetScrollX(), m_pBg->GetScrollY(), 0xff0000, false);
 	// HP•\Ž¦
 	DrawFormatString(0, 16, 0xffffff, "Enemy HP:%d", m_hp);
 #endif // _DEBUG
