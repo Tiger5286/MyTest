@@ -13,13 +13,11 @@ public class fruitCollision : MonoBehaviour
         if (collision.gameObject.CompareTag(ThisFruitTag) && this.gameObject.CompareTag(ThisFruitTag))
         {
 
-            // ©•ª‚ÌID‚ª‘Šè‚æ‚è¬‚³‚¢‚Æ‚«‚¾‚¯ˆ—‚·‚é
+            // ©•ª‚ÌID‚ª‘Šè‚æ‚è¬‚³‚¢‚Æ‚«‚¾‚¯ˆ—‚·‚é(Õ“Ë‚µ‚½‚Ç‚¿‚ç‚©‚µ‚©Às‚³‚ê‚È‚¢)
             if (this.gameObject.GetInstanceID() < collision.gameObject.GetInstanceID())
             {
                 Instantiate(NextFruitPrefab, transform.position, transform.rotation);
             }
-
-            Destroy(collision.gameObject);
             Destroy(this.gameObject);
         }
     }
