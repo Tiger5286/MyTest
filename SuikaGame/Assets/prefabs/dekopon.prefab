@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4921025540910525988}
   - component: {fileID: 5834950897536431364}
   - component: {fileID: 4192131222738112973}
+  - component: {fileID: 1960634736738940224}
   m_Layer: 0
   m_Name: dekopon
   m_TagString: Dekopon
@@ -161,5 +162,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a9c4b66e497f3f4ba2d35bf4f21d6ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThisFruitTag: Dekopon
-  NextFruitPrefab: {fileID: 0}
+  ThisFruitTag: 3
+  NextFruitPrefab: {fileID: 4030007431760866316, guid: a36652dab17c38347950bb3554f24fa7, type: 3}
+--- !u!114 &1960634736738940224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5663247255187858676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4c16bf3f0496a4ba13873378de51ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

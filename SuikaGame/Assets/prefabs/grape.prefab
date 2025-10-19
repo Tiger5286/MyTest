@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 299806398529711653}
   - component: {fileID: 4545275147355839565}
   - component: {fileID: 8653095046001627156}
+  - component: {fileID: -6817367671493595490}
   m_Layer: 0
   m_Name: grape
   m_TagString: Grape
@@ -161,5 +162,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a9c4b66e497f3f4ba2d35bf4f21d6ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThisFruitTag: Grape
+  ThisFruitTag: 2
   NextFruitPrefab: {fileID: 5663247255187858676, guid: 9adc35b573ed5c345a52d16e38910a17, type: 3}
+--- !u!114 &-6817367671493595490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4450977745618396102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4c16bf3f0496a4ba13873378de51ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
